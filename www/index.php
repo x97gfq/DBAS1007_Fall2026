@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("db", "appuser", "apppassword", "appdb");
+$conn = new mysqli("lamp-db", "appuser", "apppassword", "appdb");
 ?>
 <!DOCTYPE html>
 <html><head><title>Contacts</title>
