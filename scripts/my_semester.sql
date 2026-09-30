@@ -1,6 +1,9 @@
 -- DBAS 1007 - Week 3 Activity: Your First Database
 -- Connect in Workbench: Host 127.0.0.1  Port 13306  User root  Password rootpassword
 
+-- Start fresh: remove the database if it's already there
+DROP DATABASE IF EXISTS my_semester;
+
 -- Create a database for your semester
 CREATE DATABASE my_semester;
 

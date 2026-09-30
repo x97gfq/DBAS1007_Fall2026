@@ -1,3 +1,7 @@
+-- Start fresh: remove the database and user if they're already there
+DROP DATABASE IF EXISTS student_db;
+DROP USER IF EXISTS 'student_user'@'%';
+
 -- Create the database
 CREATE DATABASE student_db;
 
